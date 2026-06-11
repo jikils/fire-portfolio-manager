@@ -1,0 +1,1 @@
+if('serviceWorker' in navigator) {window.addEventListener('load', () => {navigator.serviceWorker.register('/fire-portfolio-manager/sw.js', { scope: '/fire-portfolio-manager/' })})}
